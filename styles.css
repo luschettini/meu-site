@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Playfair Display', serif; 
+    background-color: #fafafa; 
+    color: #222; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #d3d3d3; 
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a1a1a; 
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 3px solid #d3d3d3;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #b89778; 
+}
+
+
+main {
+    padding: 50px 30px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+}
+
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #444; 
+}
+.image-item img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px; 
+    margin: 15px 0; 
+}
+
+
+header .dior img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8%;
+}
+.author-info {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin:0 auto;
+    object-fit: cover;
+    margin:auto;
+}
+footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 3px solid #d3d3d3;
+    font-size: 1rem;
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+}
+.container img {
+    display: inline-block; /* Faz com que a imagem se comporte como um bloco em linha */
+    margin: 0 auto; /* Garante que a imagem não tenha margens adicionais */
+}
