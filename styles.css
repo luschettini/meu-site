@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +7,9 @@
 
 
 body {
-    font-family: 'Playfair Display', serif; 
-    background-color: #fafafa; 
-    color: #222; 
+    font-family: 'Playfair Display', serif;
+    background-color: #fafafa;
+    color: #222;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -19,15 +20,16 @@ header {
     background-color: #fff;
     padding: 20px;
     text-align: center;
-    border-bottom: 3px solid #d3d3d3; 
+    border-bottom: 3px solid #d3d3d3;
 }
+
 
 header h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #1a1a1a; 
+    color: #1a1a1a;
+    text-align: center;
 }
-
 
 nav ul {
     list-style: none;
@@ -42,6 +44,7 @@ nav ul li {
     margin: 0 20px;
 }
 
+
 nav ul li a {
     text-decoration: none;
     color: #1a1a1a;
@@ -52,10 +55,10 @@ nav ul li a {
     transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #b89778; 
-}
 
+nav ul li a:hover {
+    color: #b89778;
+}
 
 main {
     padding: 50px 30px;
@@ -80,30 +83,34 @@ section p {
     font-size: 1rem;
     margin-bottom: 10px;
     line-height: 1.5;
-    color: #444; 
+    color: #444;
 }
+
+
 .image-item img {
     max-width: 100%;
-    height: auto; 
-    border-radius: 8px; 
-    margin: 15px 0; 
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+    font-size: small;
 }
 
-
-header .dior img {
+.container img {
     max-width: 100%;
     height: auto;
     border-radius: 8%;
+    font-size: medium;
 }
-.author-info {
-    width: 300px;
-    height: 200px;
+
+.author-photo {
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     display: block;
-    margin:0 auto;
+    margin-bottom: 20px;
     object-fit: cover;
-    margin:auto;
 }
+
 footer {
     background-color: #fff;
     padding: 20px 0;
@@ -112,8 +119,4 @@ footer {
     font-size: 1rem;
     color: #777;
     font-family: 'Montserrat', sans-serif;
-}
-.container img {
-    display: inline-block; /* Faz com que a imagem se comporte como um bloco em linha */
-    margin: 0 auto; /* Garante que a imagem não tenha margens adicionais */
 }
